@@ -1,0 +1,214 @@
+.baner-dashoard {
+    height: 162px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-image: url('../../../../../public/assets/img/indicou.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px !important;
+}
+
+.baner-dashoard h4 {
+    font-weight: bold;
+}
+
+.baner-dashoard p {
+    font-size: 0.8em;
+}
+
+.baner-dashoard button {
+    width: 150px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00A2FF;
+    border-color: #00A2FF;
+    font-size: 0.8em;
+}
+
+.alert-dashboard {
+    width: 100%;
+    background-color: #FFF3CD;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+.alert-dashboard p {
+    color: black;
+    font-size: 0.9em;
+    font-weight: 700;
+    margin: 0;
+}
+
+.alert-dashboard a {
+    color: black;
+    font-weight: 700;
+    font-size: 0.7em;
+    text-decoration: none;
+    background-color: #E9DAAA;
+    padding: 3px 5px 3px 5px;
+}
+
+.card-processing {
+    width: 363px;
+    height: 160px;
+    margin-bottom: 20px;
+}
+
+.card-processing-title {
+    background-color: #E58D12;
+    font-size: 0.7em;
+    color: white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 10px;
+    padding: 5px;
+}
+
+.card-processing-1 {
+    display: flex;
+    font-size: 0.6em;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-processing-1 p {
+    margin: 0;
+}
+
+.icon-dot-processing {
+    color: #E58D12;
+    font-size: 1.5em;
+}
+
+.icon-dot-success {
+    color: var(--btn-two);
+    font-size: 1.5em;
+}
+
+.icon-vertical-dot {
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.card-processing-2 {
+    font-size: 0.7em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.card-processing-2 p {
+    margin: 0;
+}
+
+.card-processing-3 {
+    font-size: 0.8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+.processing-pin {
+    background-color: #EFF6FF;
+    border: 1px solid #B9C3D8;
+    border-radius: 2px;
+    height: 18px;
+    font-size: 0.8em;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.processing-pin p {
+    margin: 0;
+}
+
+.btn-processing-details {
+    width: 80px;
+    height: 18px;
+    font-size: 0.8em !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    background-color: #B9C3D8;
+    border-radius: 2px;
+    border: none;
+}
+
+.btn-processing-again {
+    width: 80px;
+    height: 18px;
+    font-size: 0.8em !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--btn-one);
+    color: white;
+    border-radius: 2px;
+    border: none;
+}
+
+.card-finished {
+    width: 363px;
+    height: 123px;
+    margin-bottom: 20px;
+}
+
+.card-exchange {
+    height: 256px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.beneficiaries-dashboard {
+    height: 259px;
+    width: 100%;
+    padding: 20px;
+}
+
+.card-beneficiaries-dashboard {
+    width: 100%;
+    background-color: #EFF6FF;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 10PX;
+}
+
+.card-beneficiaries-dashboard p {
+   margin: 0;
+   font-size: 0.7em;
+   font-weight: 700;
+}
+
+@media only screen and (max-width:768px) {
+    .baner-dashoard {
+        height: 162px;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        background-image: url('../../../../../public/assets/img/indicou.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        align-items: flex-start;
+        padding-left: 10px !important;
+    }
+
+}

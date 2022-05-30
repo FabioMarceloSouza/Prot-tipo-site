@@ -1,0 +1,144 @@
+.card-calculate {
+    min-width: 516px;
+    min-height: 639px;
+    font-size: 15px;
+    float:right;
+    background-color: #E6F0FC;
+    border-radius: 12px;
+    padding: 60px;
+}
+
+
+
+.select-country-amount {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.input-select {
+    border: none;
+    font-weight: 600;
+}
+
+.input-select:focus, .input-select:active {
+    outline: none;
+}
+
+.css-6j8wv5-Input {
+    width: 155px;
+}
+
+.css-yk16xz-control {
+    width: 155px;
+    border: none !important;
+    background-color: #F9FBFE !important;
+}
+
+.css-1s2u09g-control {
+    background-color: #F9FBFE !important;
+}
+
+.css-1pahdxg-control {
+    width: 155px;
+    border: none !important;
+    background-color: #F9FBFE !important;
+}
+
+.css-tj5bde-Svg {
+    color: var(--btn-one) !important;
+}
+
+.css-1okebmr-indicatorSeparator {
+    background-color: #F9FBFE !important;
+}
+
+.css-1uccc91-singleValue {
+    font-weight: 700;
+}
+
+.css-1uccc91-singleValue div img {
+    margin-right: 18px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.total-payments {
+    background-color: var(--secundary);
+    padding: 10px;
+    padding-top: 25px;
+    border:  1px solid var(--border);
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 64px;
+}
+
+.total-payments p {
+    font-size: 1.2em;
+}
+
+.btn-card-calculate {
+    background-color: var(--btn-two) !important;
+    border: var(--btn-two) !important; 
+    width: 100%;
+    min-height: 63px;
+}
+
+.btn-card-calculate:hover {
+     background-color: #11F215 !important;
+     border-color: #11F215 !important;
+}
+
+.card-types-payments {
+    display: flex;
+    
+}
+
+.card-types-payments p {
+  font-size: 0.8em;
+  margin: 0;
+}
+.card-types-payments .i {
+  color: var(--btn-one) ;
+  font-size: 1.8em;
+  cursor: pointer;
+}
+
+
+.img-flags {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-calculate {
+        min-height: 95% !important;
+        min-width: 100% !important;
+        padding: 20px !important;
+    }
+     
+    .card-calculate p {
+        font-size: 0.9em ;
+    }
+
+    .p-mobile-calculte p{
+        font-size: 0.9em ;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .card-calculate {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width: 1200px) {
+  .card-calculate {
+      min-width: auto;
+      min-height: auto;
+      width: 100%;
+  }
+}

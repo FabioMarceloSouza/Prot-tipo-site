@@ -1,0 +1,49 @@
+.navbar-header {
+    padding: 30px;
+    box-shadow: 0px 3px 6px #00000029;
+    background-color: var(--primary);
+    min-height: 116px;
+    
+}
+
+.nav-header .css-1s2u09g-control {
+    background-color: #FFFF !important;
+}
+
+
+.nav-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.link {
+    margin-left: 30px;
+    margin-right: 30px;
+    color: var(--link) !important;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #585757 !important;
+}
+
+.card-private-header {
+    display: flex;
+    align-items: center;
+}
+
+.card-private-header p {
+    margin:  0;
+}
+
+.icons-private-header {
+    color: var(--btn-one);
+    font-size: 1.5em;
+    margin: 0 10px 0 10px ;
+    cursor: pointer;
+}
+
+.icons-private-header:hover {
+    color: var(--dark-blue);
+}

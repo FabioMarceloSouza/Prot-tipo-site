@@ -1,0 +1,40 @@
+.card-content-status-activities {
+    width: 700px !important;
+    margin: 0 auto;
+}
+
+.card-status-remittance {
+    height: 70px;
+    
+}
+
+.circle-status {
+    width: 16px !important;
+    height: 16px !important;
+    border-radius: 50%;
+    background-color: var(--btn-one);
+    border: 2px solid black;
+}
+
+.activity-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.row-activity {
+    width: 2px;
+    height: 100%;
+    background-color: var(--border);
+}
+
+.icon-status {
+    color: #B9C3D8;
+    font-size: 25px;
+    margin: 0 !important;
+}
+
+.line-activity {
+    background-color: var(--btn-one);
+}

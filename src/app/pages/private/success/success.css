@@ -1,0 +1,95 @@
+.container-transfer-success {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-transfer-success {
+    width: 506px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    padding: 54px;
+}
+
+.card-img-target {
+    display: flex;
+}
+
+.card-img-target img {
+    margin-left: -50px !important;
+}
+
+.card-data-remittance-success {
+    margin-bottom: 50px;
+}
+
+.card-data-remittance-success h4 {
+    font-size: 1.9em;
+}
+
+.card-data-remittance-success p {
+    font-size: 1.3em;
+    margin: 0;
+}
+
+.text-data-success {
+    font-size: 1.1em !important;
+}
+
+.card-remittance-pin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    height: 105px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.card-remittance-pin p {
+    margin: 0;
+}
+
+.card-content-social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-social {
+    width: 65px;
+    height: 65px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: 1px solid #B9C3D8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon-transfer-success {
+    color: var(--btn-one);
+    font-size: 2em;
+}
+
+.text-shared {
+    font-size: 1.1em;
+}
+
+.btn-transfer-success {
+    width: 100%;
+    height: 54px;
+    background-color: var(--btn-one) !important;
+    border-color: var(--btn-one) !important;
+    margin: 0;
+}
+
+.btn-transfer-success:hover {
+    background-color: var(--dark-blue) !important;
+    border-color: var(--dark-blue) !important;
+}

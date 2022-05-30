@@ -1,0 +1,87 @@
+.container-beneficiaries {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.register-new-beneficiary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-beneficiaries h4 {
+    font-weight: bold;
+}
+
+.btn-new-beneficiary {
+    background-color: var(--btn-one) !important;
+    border-color: var(--btn-one) !important;
+    height: 50px !important;
+}
+
+.btn-new-beneficiary:hover {
+    background-color: var(--dark-blue) !important;
+    border-color: var(--dark-blue) !important;
+}
+
+.content-beneficiaries {
+    padding: 25px;
+}
+
+.input-search {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    background-color: #F9FBFE;
+    padding: 20px;
+    border: 1px solid #B9C3D8;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.input-search .icon-search {
+    color: #B9C3D8;
+}
+
+.card-benficiaries {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #B9C3D8;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-benficiaries p {
+    margin: 0;
+    font-weight: bold;
+}
+
+.btn-edit-beneficiary {
+    height: 30px !important;
+    font-size: 0.8em !important;
+    width: 100px !important;
+}
+
+.btn-submit-beneficiary {
+    height: 30px !important;
+    font-size: 0.8em !important;
+    width: 100px !important;
+}
+
+.icon-trash {
+    cursor: pointer;
+}
+
+.icon-trash:hover {
+    color: black;
+}
+
+.img-beneficiaries {
+    width: 25px;
+    height: 24px;
+    margin-right: 10px;
+}

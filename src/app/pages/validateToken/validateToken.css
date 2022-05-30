@@ -1,0 +1,177 @@
+.card-login-code{
+    width: 100%;
+    background-color: rgba(230, 240, 250, 0.281) !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-code-content {
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #E6F0FC;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 999;
+    opacity: 2 !important;
+}
+
+.card-login-code h3 {
+    font-weight: bold;
+    color: var(--btn-one);
+    text-align: center;
+}
+
+.card-login-code p {
+    color: black;
+    font-size: 12px;
+    text-align: center;
+}
+
+.submit-again{
+    font-weight: bold;
+    color: var(--btn-one);
+    display: inline !important;
+}
+
+.card-code{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 53%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.input-code {
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline-color:  var(--btn-one);
+    font-size: 30px;
+    font-weight: bold;
+    color: #616466;
+    padding-left: 13px;
+}
+
+.input-code::placeholder {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: middle ; 
+}
+
+.btn-code {
+    background-color: var(--btn-one) !important;
+    border-color: var(--btn-one) !important;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto !important;
+    margin-top: 20px;
+    margin-bottom: 20px !important;
+}
+
+.btn-code:hover {
+    background-color: var(--dark-blue) !important;
+    border-color: var(--dark-blue) !important;
+}
+
+.errorCode {
+    text-align: center;
+    margin-top: 5px;
+    color: red;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .card-login-code {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-code-content {
+        width: 100% !important;
+    }
+
+    .card-code {
+        width: 53%;
+    }
+
+    .input-code {
+        width: 38px;
+        padding-left: 8px;
+    }
+
+    .input-code::placeholder {
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        vertical-align: middle ;
+        position: absolute;
+        top: 10px;
+        left: 6px;
+    }
+     
+    .btn-code {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+    .card-login-code h3 {
+       font-size: 1.3em;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+
+    .card-login-code {
+        width: 98%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-code-content {
+        width: 100% !important;
+    }
+ 
+    .btn-code {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+}
+@media only screen and (max-width: 1200px) {
+
+    .card-login-code {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login-code-content {
+        width: 70%;
+    }
+
+    .btn-code {
+        margin-top: 15px !important;
+        margin-bottom: 15px !important;
+    }
+
+}

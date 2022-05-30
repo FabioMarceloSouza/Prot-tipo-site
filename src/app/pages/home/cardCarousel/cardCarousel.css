@@ -1,0 +1,9 @@
+.card-crousel-mobile {
+   display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .card-crousel-mobile {
+        display: flex;
+     }
+}

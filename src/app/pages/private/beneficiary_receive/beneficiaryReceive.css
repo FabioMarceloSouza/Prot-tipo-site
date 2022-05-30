@@ -1,0 +1,76 @@
+.container-beneficiary-receive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-benficiary-receive {
+    width: 506px;
+    border-radius: 14px;
+    padding: 30px;
+}
+
+.card-account-deposit {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #B9C3D8;
+    border-radius: 14px;
+    padding: 20px;
+    min-height: 108px;
+}
+
+.card-header-account-deposit {
+    display: flex;
+    align-items: flex-start;
+}
+
+.card-header-account-deposit p {
+    margin: 0;
+}
+
+.card-header-account-deposit p span {
+    color: var(--btn-one);
+}
+
+.text-receive {
+    font-size: 0.8em;
+}
+
+.radio-beneficiary-receiver {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.text-bank {
+    font-size: 0.8em;
+    margin: 0;
+    font-weight: 400;
+}
+
+.input-bank-receive {
+    height: 50px;
+    background-color: #F9FBFE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    border-radius: 7px;
+    margin-bottom: 15px;
+}
+
+.icon-receive-account {
+    color: var(--btn-one);
+    font-size: 1.3em;
+}
+
+.btn-back-receive {
+    width: 170px;
+    height: 63px;
+}
+
+.btn-next-receive {
+    width: 229px;
+    height: 63px;
+}

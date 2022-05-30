@@ -1,0 +1,118 @@
+
+.container-side-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.btn-side-menu {
+    width: 269px;
+    height: 54px;
+    background-color: var(--btn-two) !important;
+    border-color: var(--btn-two) !important;
+    margin-bottom: 20px;
+}
+
+.btn-side-menu:hover {
+    background-color:  #08790a  !important;
+    border-color:  #08790a !important;
+}
+
+.content-side-menu {
+    height: 389px;
+    width: 269px;
+    font-size: 15px;
+    box-shadow: -9px -9px 35px #FFFFFF, 8px 8px 35px #b9c2d1;
+    background-color: #E6F0FC;
+    border-radius: 5px;
+    padding: 15px !important;
+    margin-bottom: 20px;
+}
+
+.card-menu {
+    font-size: 12px;
+    box-shadow: -9px -9px 35px #FFFFFF, 8px 8px 35px #b9c2d1;
+    background-color: #E6F0FC;
+    border: 2px solid #E6F0FC;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 61px;
+    margin-bottom: 10px;
+    padding: 0 5px 0 5px;
+    color: var(--title);
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 999 !important;
+    opacity: 1;
+}
+
+.circle-menu {
+    padding: 5px;
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+
+.text-menu {
+    margin-top: 10px;
+    z-index: 1;
+}
+
+.icon-menu {
+    color: var(--btn-one);
+    font-size: 1.7em;
+    z-index: 1;
+}
+
+.arrow-menu {
+    color: var(--btn-one);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.arrow-menu:hover {
+    font-size: 25px;
+}
+
+.side-menu-btcard {
+    width: 269px;
+    min-height: 482px;
+    background-color: black;
+    border-radius: 6px;
+    padding: 30px;
+}
+
+.side-menu-btcard h5 {
+    font-size: 1em;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.side-menu-btcard p {
+    font-size: 0.6em;
+    font-weight: 700;
+    background-color: var(--btn-two);
+    color: black;
+}
+
+.side-menu-btcard a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.side-menu-btcard a:hover {
+    color: #FFFFFF;
+    border-bottom: 2px solid var(--btn-two);
+}
+
+.side-menu-btcard a .icon-card-arrow {
+    color: var(--btn-two);
+    font-size: 0.8em;
+}

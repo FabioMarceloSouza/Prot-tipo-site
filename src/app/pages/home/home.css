@@ -1,0 +1,246 @@
+.card-session-2 {
+    width: 341px;
+    height: 423px;
+    max-width: 341px;
+    max-height: 423px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+}
+
+.card-session-2 img {
+    width: 198px;
+    height: 136px;
+}
+
+.img-aboutUS {
+    max-width: 474px;
+    max-height: 367px;
+}
+
+.container-session-3 {
+    min-height: 394px;
+    background: transparent linear-gradient(180deg, var(--unnamed-color-044bd9) 0%, var(--unnamed-color-00a2ff) 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -9px -9px 25px var(--unnamed-color-ffffff);
+    background: transparent linear-gradient(180deg, #044BD9 0%, #00A2FF 100%) 0% 0% no-repeat padding-box;
+    box-shadow: -9px -9px 25px #FFFFFF;
+    opacity: 1;
+}
+
+.btn-start {
+    background-color: var(--btn-two) !important;
+    border: var(--btn-two) !important;
+    height: 56px;
+    width: 357px;
+}
+
+.btn-start:hover {
+    background-color: #11F215 !important;
+    border: #11F215 !important;
+}
+
+.img-world {
+    margin-top: -25px;
+}
+
+.input-verification {
+    width: 402px !important;
+    min-height: 63px !important;
+    border-radius: 8px;
+    background-image: linear-gradient(to bottom, #C7CCE1, #F9FBFE, #F9FBFE, #F9FBFE);
+}
+
+.btn-verification {
+    width: 229px ;
+    min-height: 63px !important;
+    background-color: var(--btn-one);
+    border-color: var(--btn-one);
+    margin-left: 20px;
+}
+
+.session-4 {
+    margin-top: 100px;
+}
+
+.card-questions {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--border);
+}
+
+.card-question-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.icon-more {
+    font-size: 50px;
+    font-weight: bold;
+    color: #00A2FF;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.icon-rotate{
+    transform:  rotate(50deg);
+}
+
+.icon-more:hover {
+    color: var(--dark-blue);
+}
+
+
+.card-session-1-mobile {
+    display: none;
+  }
+
+.card-session-1 {
+    display: flex;
+}
+
+.card-submit-session-3 {
+    padding: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+     
+    .session-1-home {
+        padding: 30px !important;
+    }
+    .session-4-home {
+        padding: 30px !important;
+    }
+
+    .input-verification {
+        width: 100% !important;
+        margin-bottom: 20px;
+    }
+
+    .btn-verification {
+        width: 100%;
+    }
+
+    .card-session-1 {
+        display: none ;
+    }
+
+     .card-session-1-mobile {
+       display: flex;
+     }
+
+     .card-session-1-mobile p {
+        text-align: start;
+     }
+
+    .card-session-1-calculate {
+       margin-bottom: 30px;
+    }
+
+    .card-session-2 {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .img-aboutUS{
+        width: 100%;
+    }
+
+    .card-submit-session-3{
+        padding: 5 !important;
+    }
+
+    .card-submit-session-3 h2{
+        font-size: 2em;
+    }
+
+    .img-world {
+        margin-bottom: -20px;
+        margin-top: 30px;
+    }
+
+    .card-carousel-desktop {
+        display: none !important;
+    }
+
+    .btn-start {
+        width: 100%;
+    }
+
+    .card-questions p {
+        text-align: start;
+      }
+    .icon-more {
+        padding-bottom: 10px;
+    }
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .img-aboutUS {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .img-world {
+        width: 100%;
+    }
+
+    .card-session-2 {
+        width: 100%;
+    }
+
+    .card-session-2 img {
+        width: 100%;
+    }
+
+    .card-session-2 h2, p {
+        text-align: center;
+    }
+
+    .content-about-us p{
+       text-align: start;
+    }
+
+    .card-session-1 p{
+        text-align: start;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .img-aboutUS {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .img-world {
+        width: 100%;
+    }
+    
+    .card-session-2 {
+        width: 100%;
+    }
+
+    .card-session-2 img {
+        width: 100%;
+    }
+
+    .card-session-2 h2, p {
+        text-align: center;
+    }
+    
+    .card-session-1 p{
+        text-align: start;
+    }
+
+    .content-about-us p{
+        text-align: start;
+     }
+ 
+}

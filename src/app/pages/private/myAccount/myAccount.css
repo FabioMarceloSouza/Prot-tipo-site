@@ -1,0 +1,129 @@
+.container-my-account {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.content-my-account {
+    width: 100%;
+}
+
+.p-account {
+    width: 100%;
+    padding: 30px;
+}
+
+.card-pointer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+}
+
+.img-user {
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+}
+
+.card-pointer-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: #D9E6F7;
+    background-image: linear-gradient(to right, #C4D1E9 2%, #D9E6F7 8%);
+}
+
+.content-data-my-account-1 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--border) !important;
+    margin-bottom: 20px !important;
+}
+
+.text-edit-data-my-account {
+    display: flex;
+    align-items: center;
+}
+
+.text-edit-data-my-account h5 {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.text-edit-data-my-account p {
+    margin: 0;
+    color: var(--btn-one);
+    font-size: 0.8em;
+    cursor: pointer;
+}
+
+.icon-edit-account {
+    color: var(--btn-one);
+    cursor: pointer;
+    font-size: 0.8em;
+    margin-right: 5px;
+}
+
+.text-edit-data-my-account p:hover, .icon-edit-account:hover {
+    color: var(--dark-blue);
+}
+
+.content-data-my-account-1 .icon-profile-account {
+    font-size: 70px;
+    color: var(--btn-one);
+}
+
+.content-data-my-account-1 a {
+    color: var(--title);
+    margin-left: 30px;
+}
+
+.card-data-accont-1 {
+    margin-top: 20px !important;
+}
+
+.card-data-accont-1 p {
+    margin: 0;
+}
+
+.card-payment-methods-account {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #B9C3D8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.circle-type-payment-account {
+    background-color: #FFFFFF;
+    height: 67px;
+    width: 67px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.text-card-payment-methods-account p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.icon-trash-account {
+    font-size: 1.3em;
+    cursor: pointer;
+}
+
+.icon-trash-account:hover {
+    color: black;
+}
+
+.icon-other-methods-account {
+    color: var(--btn-one);
+    font-size: 1.8em;
+}

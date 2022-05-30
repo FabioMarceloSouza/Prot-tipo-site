@@ -1,0 +1,66 @@
+.icone-footer {
+    color: var(--btn-one);
+    font-size: 23px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.icone-footer:hover {
+    color: #044BD9;
+}
+
+.img-tellphone {
+    width: 70px;
+    height: 66px;
+}
+
+.img-footer {
+    height: 70px;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    .container-footer {
+        padding: 30px !important;
+    }
+
+    .link-footer p{
+        text-align: start !important;
+        margin-top: 20px;
+    }
+
+    .card-img-session-3-footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-footer-img-1 {
+        margin-right: 0 !important;
+    }
+
+    .last-session-footer {
+        flex-direction: column;
+    }
+
+}
+@media only screen and (max-width: 992px) {
+    .card-content-footer p {
+        text-align: start;
+    }
+    .link-footer p{
+        text-align: end;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .card-content-footer p {
+        text-align: start;
+    }
+
+    .link-footer p{
+        text-align: end;
+    }
+}

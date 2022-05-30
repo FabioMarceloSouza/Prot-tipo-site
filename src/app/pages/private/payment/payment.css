@@ -1,0 +1,159 @@
+.container-payment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-resume-payment {
+    width: 506px;
+    padding: 48px;
+    margin-top: 25px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.result-payment-card {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 35px;
+}
+
+.result-payment-card p {
+    font-size: 1em;
+    margin: 0;
+}
+
+.bg-blue {
+    background-color: var(--btn-one);
+    border-radius: 7px;
+    color: white;
+}
+
+.add-cupom {
+    width: 100%;
+    min-height: 73px;
+    margin-top: 30px;
+    border: 1px solid #B9C3D8;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+.add-cupom p {
+    margin: 0;
+}
+
+.card-add-cupom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.icon-add-cupom {
+    color: var(--btn-one);
+    cursor: pointer;
+}
+
+.card-input-add-cupom {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.input-add-cupom {
+    width: 100%;
+    border: 1px solid #B9C3D8;
+    border-radius: 4px;
+    height: 40px;
+    padding: 15px;
+}
+
+.btn-add-cupom {
+    height: 40px;
+    background-color: var(--btn-one) !important;
+    border-color: var(--btn-one) !important;
+}
+
+.btn-add-cupom:hover {
+    background-color: var(--dark-blue) !important;
+    border-color: var(--dark-blue) !important;
+}
+
+.methods-payment {
+    width: 506px;
+    margin-top: 30px;
+    padding: 48px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.card-payment-method {
+    display: flex;
+    width: 100%;
+    height: 92px;
+    align-items: center;
+    border: 1px solid #B9C3D8;
+    -webkit-border-radius: 14px;
+    -moz-border-radius: 14px;
+    border-radius: 14px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.card-circle-payment-methods {
+    width: 67px;
+    height: 67px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+}
+
+.radio-transfer-payment {
+    width: 20px;
+    height: 20px;
+}
+
+.text-payment-card-methods p {
+    margin: 0;
+}
+
+.text-number-card {
+    font-size: 0.8em;
+}
+
+.icon-transfer-payment {
+    color: var(--btn-one);
+    font-size: 2em;
+}
+
+.card-btn-transfer-payment {
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.card-btn-transfer-payment button {
+    margin: 0;
+}
+
+.btn-back {
+    margin-right: 20px !important;
+}
